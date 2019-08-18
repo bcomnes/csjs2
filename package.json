@@ -26,13 +26,14 @@
   "dependencies": {},
   "devDependencies": {
     "brfs": "^2.0.2",
+    "browserify": "^16.5.0",
     "bulk-require": "^1.0.1",
     "bulkify": "bcomnes/bulkify#updates",
     "coveralls": "^3.0.6",
     "folderify2": "^2.0.0",
     "include-folder": "^1.0.0",
-    "tape": "^4.2.0",
     "nyc": "^14.1.1",
+    "tape": "^4.2.0",
     "tape-run": "^6.0.0"
   },
   "engines": {
