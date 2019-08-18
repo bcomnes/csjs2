@@ -16,25 +16,24 @@
   "repository": "git@github.com:rtsao/csjs.git",
   "bugs": "https://github.com/rtsao/csjs/issues",
   "scripts": {
-    "test": "node test/index.js",
-    "cover": "istanbul cover test/index.js",
-    "travis-test": "npm run cover && ((cat coverage/lcov.info | coveralls) || exit 0)",
-    "travis-test-browser": "zuul -- test/index.js"
+    "test": "nyc --reporter=lcov node test/index.js",
+    "travis-test": "npm run test",
+    "travis-test-browser": "browserify test/index.js -t bulkify -t brfs -t folderify | tape-run"
   },
   "dependencies": {},
   "devDependencies": {
-    "brfs": "^1.4.2",
-    "bulk-require": "^0.2.1",
-    "bulkify": "^1.1.1",
-    "coveralls": "^2.11.4",
-    "folderify": "https://github.com/rtsao/folderify/tarball/patch-1",
+    "brfs": "^2.0.2",
+    "bulk-require": "^1.0.1",
+    "bulkify": "bcomnes/bulkify#updates",
+    "coveralls": "^3.0.6",
+    "folderify": "^1.2.1",
     "include-folder": "^1.0.0",
-    "istanbul": "^0.4.0",
     "tape": "^4.2.0",
-    "zuul": "^3.8.0"
+    "nyc": "^14.1.1",
+    "tape-run": "^6.0.0"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=10.0.0"
   },
   "license": "MIT"
 }
