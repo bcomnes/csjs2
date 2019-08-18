@@ -21,7 +21,8 @@
   "scripts": {
     "test": "nyc --reporter=lcov node test/index.js",
     "travis-test": "npm run test",
-    "travis-test-browser": "browserify test/index.js -t bulkify -t brfs -t folderify2 | tape-run"
+    "travis-test-browser": "browserify test/index.js -t bulkify -t brfs -t folderify2 | tape-run",
+    "report": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {},
   "devDependencies": {

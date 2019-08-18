@@ -7,3 +7,5 @@ services:
 script:
 - npm run travis-test
 - xvfb-run --auto-servernum npm run travis-test-browser
+after_success:
+- npm run report
