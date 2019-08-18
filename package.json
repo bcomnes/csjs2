@@ -19,7 +19,7 @@
   "scripts": {
     "prepare": "npm run transpile",
     "transpile": "babel src -d dist --copy-files",
-    "rollup": "rollup src/index.js --output dist-es/index.js",
+    "rollup": "rollup src/index.js -o dist-es/index.js -f esm",
     "transpile-rollup": "BABEL_ENV=rollup babel dist-es/index.js -o dist-es/index.es5.js -s",
     "build": "npm run rollup && npm run transpile-rollup",
     "test": "npm run transpile && node dist/test/index.js",
