@@ -235,8 +235,8 @@ MIT
 
 [npm-badge]: https://badge.fury.io/js/csjs2.svg
 [npm-href]: https://www.npmjs.com/package/csjs2
-[build-badge]: https://travis-ci.org/bcomnes/csjs2.svg?branch=master
-[build-href]: https://travis-ci.org/bcomnes/csjs2
+[build-badge]: https://travis-ci.com/bcomnes/csjs2.svg?branch=master
+[build-href]: https://travis-ci.com/bcomnes/csjs2
 [coverage-badge]: https://coveralls.io/repos/bcomnes/csjs2/badge.svg?branch=master&service=github
 [coverage-href]: https://coveralls.io/github/bcomnes/csjs2?branch=master
 [deps-badge]: https://img.shields.io/badge/dependencies-none-brightgreen.svg
