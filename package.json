@@ -35,7 +35,7 @@
     "bulk-require": "^0.2.1",
     "bulkify": "^1.1.1",
     "coveralls": "^2.11.4",
-    "folderify": "https://github.com/rtsao/folderify/tarball/patch-1",
+    "folderify": "^1.2.1",
     "include-folder": "^1.0.0",
     "istanbul": "^0.4.0",
     "rollup": "^0.36.4",
