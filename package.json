@@ -1,5 +1,5 @@
 {
-  "name": "csjs",
+  "name": "csjs2",
   "version": "1.1.0",
   "description": "Cascading Style JavaScripts",
   "keywords": [
@@ -11,10 +11,13 @@
     "css"
   ],
   "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "contributors": [
+    "Bret Comnes <bcomnes@gmail.com> (https://bret.io)"
+  ],
   "main": "index.js",
-  "homepage": "https://github.com/rtsao/csjs",
-  "repository": "git@github.com:rtsao/csjs.git",
-  "bugs": "https://github.com/rtsao/csjs/issues",
+  "homepage": "https://github.com/bcomnes/csjs2",
+  "repository": "git@github.com:bcomnes/csjs2.git",
+  "bugs": "https://github.com/bcomnes/csjs2/issues",
   "scripts": {
     "test": "nyc --reporter=lcov node test/index.js",
     "travis-test": "npm run test",

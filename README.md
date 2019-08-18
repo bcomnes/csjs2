@@ -1,9 +1,11 @@
-# [![CSJS logo](https://cdn.rawgit.com/rtsao/csjs/logo/logo.svg "CSJS (Cascading Style JavaScripts)")](https://github.com/rtsao/csjs)
+# [![CSJS logo](https://cdn.rawgit.com/rtsao/csjs/logo/logo.svg "CSJS2 (Cascading Style JavaScripts)")](https://github.com/bcomnes/csjs2)
 
 [![build status][build-badge]][build-href]
 [![coverage status][coverage-badge]][coverage-href]
 [![dependencies status][deps-badge]][deps-href]
 [![npm version][npm-badge]][npm-href]
+
+A maintainence fork of [rtsao/csjs](https://github.com/rtsao/csjs)
 
 > CSJS allows you to write modular, scoped CSS with valid JavaScript.
 
@@ -42,7 +44,7 @@ const styles = csjs`
 `;
 
 const html = require('react-dom/server').renderToStaticMarkup(
-  div({className: styles.panel}, [ 
+  div({className: styles.panel}, [
     h1({className: styles.title}, 'Hello World!')
   ])
 );
@@ -69,8 +71,6 @@ const css = csjs.getCss(styles);
 ### Simple, tooling-free
 
 CSJS runs in ES6 environments without transpilation, compilation, or build steps (including Node 4+ and latest stable Chrome/Firefox/Safari/Edge).
-
-[![sauce labs test status][sauce-badge]][sauce-href]
 
 Of course, you can always transpile ES6 template strings using Babel, allowing you to use CSJS in any ES5 environment.
 
@@ -233,13 +233,11 @@ MIT
 
 [csjs-bundle]: https://wzrd.in/bundle/csjs@latest
 
-[npm-badge]: https://badge.fury.io/js/csjs.svg
-[npm-href]: https://www.npmjs.com/package/csjs
-[build-badge]: https://travis-ci.org/rtsao/csjs.svg?branch=master
-[build-href]: https://travis-ci.org/rtsao/csjs
-[coverage-badge]: https://coveralls.io/repos/rtsao/csjs/badge.svg?branch=master&service=github
-[coverage-href]: https://coveralls.io/github/rtsao/csjs?branch=master
+[npm-badge]: https://badge.fury.io/js/csjs2.svg
+[npm-href]: https://www.npmjs.com/package/csjs2
+[build-badge]: https://travis-ci.org/bcomnes/csjs2.svg?branch=master
+[build-href]: https://travis-ci.org/bcomnes/csjs2
+[coverage-badge]: https://coveralls.io/repos/bcomnes/csjs2/badge.svg?branch=master&service=github
+[coverage-href]: https://coveralls.io/github/bcomnes/csjs2?branch=master
 [deps-badge]: https://img.shields.io/badge/dependencies-none-brightgreen.svg
-[deps-href]: https://david-dm.org/rtsao/csjs
-[sauce-badge]: https://saucelabs.com/browser-matrix/csjs.svg
-[sauce-href]: https://saucelabs.com/u/csjs
+[deps-href]: https://david-dm.org/bcomnes/csjs2
