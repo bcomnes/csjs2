@@ -1,7 +1,5 @@
 # [![CSJS logo](https://cdn.rawgit.com/rtsao/csjs/logo/logo.svg "CSJS2 (Cascading Style JavaScripts)")](https://github.com/bcomnes/csjs2)
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/bcomnes/csjs2.svg)](https://greenkeeper.io/)
-
 [![build status][build-badge]][build-href]
 [![coverage status][coverage-badge]][coverage-href]
 [![dependencies status][deps-badge]][deps-href]
