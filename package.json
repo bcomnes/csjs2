@@ -35,7 +35,7 @@
     "include-folder": "^1.0.0",
     "nyc": "^14.1.1",
     "tape": "^4.2.0",
-    "tape-run": "^6.0.0"
+    "tape-run": "^7.0.0"
   },
   "engines": {
     "node": ">=10.0.0"
